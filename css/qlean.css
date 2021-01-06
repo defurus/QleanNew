@@ -1121,7 +1121,7 @@ body {
 		flex-direction: column;
 		position: absolute;
 		top: 49px;
-		left: 173px;
+		left: 167px;
 		background: black;
 	}
 	.container {
@@ -1162,6 +1162,10 @@ body {
 	.column {
 		width: 150px;
 	} 
+	.pos {
+    		width: 310px;
+   	 	height: 307px;
+	}
 }
 
 @media(max-width: 725px) {
@@ -1284,19 +1288,15 @@ body {
 	}
 }
 @media(max-width: 500px) {
-	.container {
-		width: 355px;
-		min-height: 286px;
-	}
 	.room, .yzel, .numb, .btn {
 		width: 90%;
 		margin-right: 17px;
 		float: right; 
 	}
 	.container {
-		width: 320px;
+		width: 310px;
 		min-height: 286px;
-		right: 1%;
+		right: 2%;
 	}
 	.title {
 		margin-left: 34px;
